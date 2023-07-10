@@ -1,0 +1,140 @@
+body {
+    background: #191919;
+
+}
+
+
+.login-box {
+    margin-top: 10mm;
+    margin-left: 35%;
+    height: auto;
+    text-align: center;
+    width: 30%;
+}
+
+.infoMsg{
+    color:#BA3032;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-form {
+    margin-top: 25px;
+    text-align: center;
+}
+
+
+
+input[type=email],
+[type=password] {
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-top: 1px solid gray;
+    border-radius: 3px;
+    outline: 0;
+    padding-left: 0px;
+    color: black;
+    text-align: center;
+    width: 55%;
+    height: 10mm;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+input[type=email]:hover,
+[type=password]:hover {
+    border-bottom: 2px solid #BA3032;
+    border-left: 2px solid #BA3032;
+    border-right: 2px solid #BA3032;
+    border-top: 2px solid #BA3032;
+}
+
+.AuthCode{
+    background: transparent;
+    width: 300px;
+    padding: 1em;
+    border: none;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-radius: 3px;
+    box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.QR-Code-Label{
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.FA-box {
+    display:flex; 
+    justify-content:center; 
+    align-items:center; 
+    height:100vh;
+}
+
+.form-group {
+    margin-bottom: 1%;
+}
+
+
+.loginsubmit {
+    padding-right: 0px;
+    border-radius: 3px;
+    width: 55%;
+    background: #2c2d2f;
+    color: #ffffff;
+    opacity: 85%;
+    font-weight: bold;
+    height: 10mm;
+    border-bottom: 1px solid #BA3032;
+    border-left: 1px solid #BA3032;
+    border-right: 1px solid #BA3032;
+    border-top: 1px solid #BA3032;
+
+}
+
+.loginsubmit:hover {
+    opacity: 100%;
+    cursor: pointer;
+    border-bottom: 2px solid #BA3032;
+    border-left: 2px solid #BA3032;
+    border-right: 2px solid #BA3032;
+    border-top: 2px solid #BA3032;
+    box-shadow: 4px 4px 60px 8px rgba(186, 48, 50, 0.2);
+}
+
+.loginsubmit:focus {
+    opacity: 100%;
+    width: 56%;
+    height: 11mm;
+    box-shadow: 4px 4px 60px 8px rgba(186, 48, 50, 0.2);
+    font-weight: bold;
+}
+
+
+.loginbttm {
+    margin-top: 5%;
+}
+
+.Logo {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 11%;
+}
